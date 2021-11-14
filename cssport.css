@@ -1,0 +1,131 @@
+# Portfolio
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body{
+margin: 0;
+padding: 0;
+  }
+h1
+{ 
+
+color:white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Bree Serif', serif;
+}
+
+header{
+
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(238,70,252,1) 100%);
+display: flex;
+flex-direction: column;
+align-items: center;
+background-size: cover;
+background-position:center ;
+padding-bottom: 70px;
+padding-top:70px;
+}
+header p{
+  margin-top: 15px;
+  color: white;
+  font-size: 25px;
+}
+
+
+.presentation{
+  margin-top: 6%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 250px;
+  margin-left: 250px;
+  
+}
+.presentation h2{
+  font-family: 'Bree Serif', serif ; 
+}
+.presentation .pres{
+  display: flex;
+  flex-wrap: wrap;
+ margin-left: 200px;
+  
+}
+.presentation .pres .pre{
+  max-width: 450px;
+  margin-right: -50px;
+  
+  
+}
+.propos{
+font-size:20px;
+text-align:justify;
+}
+ .description{
+  font-size: large;
+}
+a{
+text-decoration: none;
+  color: black;
+}
+
+a:hover {
+ color: blue;
+}
+
+.compet{
+  margin-top: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.compet .compe{
+  display: flex;
+  flex-wrap: wrap;
+ margin-left: 200px;
+}
+.compet .compe .comp .description{
+  font-size: larger;
+}
+.testcac{
+  font-family:'Bree Serif', serif ;
+  text-transform: uppercase;
+  font-size: 2vw;
+  text-align: center;
+}
+.experi{
+  margin-top: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.experi .exper{
+  display: flex;
+  flex-wrap: wrap;
+ margin-left: 200px;
+
+}
+.experi .exper .expe .dates{
+  font-size: 16px;
+  color: rgb(153, 150, 150);
+}
+.formation{
+  margin-top: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.formation .formatio{
+  display: flex;
+  flex-wrap: wrap;
+ margin-left: 200px;
+}
+.formation .formatio .formati .dates{
+  font-size: 16px;
+  color: rgb(153, 150, 150);
+}
+.titre{
+  font-size: 20px;
+}
